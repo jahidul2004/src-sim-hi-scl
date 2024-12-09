@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../styles/login.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+    </head>
+    <body>
+        <section class="login">
+            <div class="input-area">
+                <form>
+                    <img src="../assets/images/src.jpg" alt="School Logo" />
+                    <br />
+                    <div class="login-title">
+                        <h1>লগইন করুন</h1>
+                    </div>
+                    <br />
+                    <div class="radio">
+                        <input type="radio" id="student" name="login-by" />
+                        <label for="student">শিক্ষার্থী</label>
+
+                        <input type="radio" id="teacher" name="login-by" />
+                        <label for="teacher">শিক্ষক</label>
+
+                        <input type="radio" id="staff" name="login-by" />
+                        <label for="staff">স্টাফ</label>
+                    </div>
+                    <br />
+
+                    <input
+                        type="text"
+                        id="id"
+                        placeholder="আপনার আইডি প্রদান করুন"
+                    />
+                    <br />
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="আপনার পাসওয়ার্ড প্রদান করুন"
+                    />
+                    <br />
+                    <input type="submit" value="লগইন" />
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

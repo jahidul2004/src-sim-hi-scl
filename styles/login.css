@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    width: 60%;
+    height: 80vh;
+    border: 2px solid #a71426;
+    margin: 0 auto;
+    margin-top: 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.login .input-area form img {
+    width: 30%;
+    height: 30%;
+}
+
+.login .input-area form h1 {
+    font-size: 34px;
+    color: #a71426;
+}
+
+.login .radio {
+    font-size: 18px;
+    color: #a71426;
+}
+
+.login input[type="text"],
+input[type="password"] {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    font-size: 16px;
+    border: none;
+    border: 2px solid #a71426;
+    border-radius: 10px;
+    color: #a71426;
+}
+input[type="password"]::placeholder {
+    color: #a71426;
+}
+.login input[type="text"]::placeholder {
+    color: #a71426;
+}
+
+.login input[type="submit"] {
+    width: 35%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #a71426;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
